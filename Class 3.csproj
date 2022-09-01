@@ -9,6 +9,13 @@
   <ItemGroup>
     <None Remove="OOP.pptx" />
     <None Remove="StringFormatting.pptx" />
+    <None Remove="tickets.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="tickets.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
